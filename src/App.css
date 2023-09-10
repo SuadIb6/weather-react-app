@@ -1,9 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
 .App {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto;
 }
 
 .App footer {
-  font-size: 11px;
   margin: 10px 0;
+  bottom: 113px;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+.open-source {
+  color: #ffccdc;
+  padding: 2px 5px;
+  transition: all 450ms ease-in-out;
+}
+
+.open-source:hover {
+  text-decoration: none;
+  background: #82655b;
+  color: #f9f9ed;
 }
